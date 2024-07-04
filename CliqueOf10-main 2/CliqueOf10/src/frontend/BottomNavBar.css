@@ -1,0 +1,37 @@
+/* BottomNavbar.css */
+.MainDiv {
+  overflow: hidden;
+}
+.bottom-navbar-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  height: 50px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+.MainInner {
+  height: calc(100vh - 100px);
+}
+.bottom-nav-item {
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bottom-nav-item.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

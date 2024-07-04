@@ -1,0 +1,42 @@
+/* MatchGroups.css */
+
+.match-groups-container {
+  margin: 20px;
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  /* overflow: auto; */
+  height: 90vh;
+
+}
+
+.group-list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  overflow: auto;
+}
+
+.group {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; /* Adjust width as per your layout */
+}
+
+.group h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.group ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.group li {
+  margin-bottom: 5px;
+}
